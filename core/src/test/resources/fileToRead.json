@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 123,
+      "name": "John",
+      "age": 12,
+      "accounts": [
+        {
+          "name": "Apple ID",
+          "services": [
+            {
+              "name": "Apple Music",
+              "serviceType": "COMMON"
+            },
+            {
+              "name": "iCloud",
+              "serviceType": "PREMIUM"
+            }
+          ],
+          "registrationTime": "2015-10-10",
+          "expireTime": "2025-10-10"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Steve",
+      "age": 15,
+      "accounts": [
+        {
+          "name": "Google",
+          "services": [
+            {
+              "name": "Google Drive",
+              "serviceType": "TRIAL"
+            },
+            {
+              "name": "Google Docs",
+              "serviceType": "PREMIUM"
+            }
+          ],
+          "registrationTime": "2013-10-10",
+          "expireTime": "2023-10-10"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Patrick",
+      "age": 25,
+      "accounts": [
+        {
+          "name": "Google",
+          "services": [
+            {
+              "name": "Gmail",
+              "serviceType": "TRIAL"
+            },
+            {
+              "name": "Google Sheets",
+              "serviceType": "COMMON"
+            }
+          ],
+          "registrationTime": "2011-10-10",
+          "expireTime": "2021-10-10"
+        }
+      ]
+    }
+  ]
+}

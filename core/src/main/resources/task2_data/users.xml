@@ -1,0 +1,43 @@
+<users>
+    <user>
+        <id>1</id>
+        <name>Thomas Junk</name>
+        <age>25</age>
+        <accounts>
+            <account>
+                <name>Google</name>
+                <registrationTime>10/02/2017</registrationTime>
+                <expireTime>20/10/2022</expireTime>
+                <services>
+                    <service>
+                        <name>Google Drive</name>
+                        <serviceType>PREMIUM</serviceType>
+                    </service>
+                    <service>
+                        <name>Google Calendar</name>
+                        <serviceType>COMMON</serviceType>
+                    </service>
+                    <service>
+                        <name>Google Hangout</name>
+                        <serviceType>TRIAL</serviceType>
+                    </service>
+                </services>
+            </account>
+            <account>
+                <name>Amazon AWS</name>
+                <registrationTime>20/01/2018</registrationTime>
+                <expireTime>30/11/2020</expireTime>
+                <services>
+                    <service>
+                        <name>Amazon EC2</name>
+                        <serviceType>PREMIUM</serviceType>
+                    </service>
+                    <service>
+                        <name>Amazon Lambda</name>
+                        <serviceType>TRIAL</serviceType>
+                    </service>
+                </services>
+            </account>
+        </accounts>
+    </user>
+</users>
